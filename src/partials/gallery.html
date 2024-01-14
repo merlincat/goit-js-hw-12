@@ -1,1 +1,19 @@
+<section>
+  <h1>Fetching and rendering Gallery</h1>
 
+  <form class="search-form js_search_form" action="submit" method="get">
+    <input
+      class="form-input js_search_input"
+      type="text"
+      name="search"
+      id="search"
+    />
+    <button class="btn-submit" type="submit">Search</button>
+  </form>
+
+  <ul class="gallery"></ul>
+  <button type="button" class="load-more js-load-more is-hidden">
+    Load more
+  </button>
+  <span class="loader"></span>
+</section>
