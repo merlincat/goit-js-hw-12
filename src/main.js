@@ -21,6 +21,7 @@ const getPhotos = (q, page, per_page) => {
       page,
       per_page,
       orientation: 'horizontal',
+      safesearch: true,
     },
   });
 };
